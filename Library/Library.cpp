@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     Book book1;
-    book1.setBookDetails("Twilight", "AAAAA", "Alex", true);
+    book1.setBookDetails("The shadow of the wind", "AAAAA", "Carlos Ruiz Zafon", true);
     Book book2;
     book2.setBookDetails("Sapiens", "BBBBB", "Camila", true);
     Book book3;
