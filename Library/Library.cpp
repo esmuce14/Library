@@ -5,20 +5,22 @@ using namespace std;
 int main()
 {
     Book book1;
-    book1.setBookDetails("The shadow of the wind", "AAAAA", "Carlos Ruiz Zafon", true);
+    book1.setBookDetails("The shadow of the wind", "9781920885854", "Carlos Ruiz Zafon", true);
     Book book2;
-    book2.setBookDetails("Thus spake Zarathustra", "BBBBB", "Friedrich Niettzsche", true);
+    book2.setBookDetails("Thus spake Zarathustra", "9798852707819", "Friedrich Niettzsche", true);
     Book book3;
-    book3.setBookDetails("Petals of Healing", "CCCCC", "Anne Raynoe", true);
+    book3.setBookDetails("Petals of Healing", "9780473606718", "Anne Raynoe", true);
     Book book4;
-    book4.setBookDetails("Journey through the Impossible", "DDDDD", "Julio Verne", true);
+    book4.setBookDetails("Journey through the Impossible", "9781591020790", "Julio Verne", true);
     Book book5;
-    book5.setBookDetails("Pedro Paramo ", "EEEEE", "Juan Rulfo", true);
+    book5.setBookDetails("Pedro Paramo ", "9780802133908", "Juan Rulfo", true);
 
     Book array[300];
     array[0] = book1;
     array[1] = book2;
     array[2] = book3;
+    array[3] = book4;
+    array[4] = book5;
 
     string isbnToBorrow = "";
     while (isbnToBorrow != "0") {
