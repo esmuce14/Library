@@ -7,9 +7,13 @@ int main()
     Book book1;
     book1.setBookDetails("The shadow of the wind", "AAAAA", "Carlos Ruiz Zafon", true);
     Book book2;
-    book2.setBookDetails("Sapiens", "BBBBB", "Camila", true);
+    book2.setBookDetails("Thus spake Zarathustra", "BBBBB", "Friedrich Niettzsche", true);
     Book book3;
-    book3.setBookDetails("Harry Potter", "CCCCC", "Zin Ko", true);
+    book3.setBookDetails("Petals of Healing", "CCCCC", "Anne Raynoe", true);
+    Book book4;
+    book4.setBookDetails("Journey through the Impossible", "DDDDD", "Julio Verne", true);
+    Book book5;
+    book5.setBookDetails("Pedro Paramo ", "EEEEE", "Juan Rulfo", true);
 
     Book array[300];
     array[0] = book1;
