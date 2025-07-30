@@ -24,7 +24,7 @@ int main()
 
     string isbnToBorrow = "";
     while (isbnToBorrow != "0") {
-        cout << "Input the book's ISBN you want to borrow or 0(zero) to quit: ";
+        cout << "Input the book's ISBN you want to borrow: ";
         cin >> isbnToBorrow;
         
         for (int i = 0; i < 300; i++)
